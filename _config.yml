@@ -24,17 +24,24 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rubentobalina
 github_username:  rubentr
 
+# Important settings
+# assets:
+# sources:
+#   - assets/fonts
+#   - assets/img
+#   - assets/stylesheets
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
+    - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
-    - README.md
+#   - README.md
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
