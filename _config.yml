@@ -13,13 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: intonarumori
+title: anomia
 email: lagrimaescrita@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-baseurl: /intonarumori/ #the subpath of your site, e.g. /blog
-url: "https://rubentr.github.io/intonarumori/" #the base hostname & protocol for your site, e.g. http://example.com
+description: > I'm a newbie livecoder from Madrid # this means to ignore newlines until "baseurl:"
+
+# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
+#url: "http://username.github.io"
+#baseurl: ""
+
+# If you are building a GitHub project page then use these settings:
+url: "" 
+#"https://rubentr.github.io/intonarumori/" 
+#the base hostname "http://username.github.io/projectname"
+baseurl: "" 
+#/intonarumori/ #the subpath of your site, "/projectname"
+
 twitter_username: rubentobalina
-github_username:  rubentr
+github_username: rubentr
+website: chuletitaspinguino.wordpress.com
+Soundcloud_userID: user-516707540
+#Youtube_username: lagrimaescrita
 
 # Important settings
 # assets:
@@ -33,12 +46,12 @@ markdown: kramdown
 theme: minima
 plugins:
     - jekyll-feed
+#    - soundcloud_sound
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
-#   - README.md
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
