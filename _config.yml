@@ -22,10 +22,10 @@ description: > I'm a newbie livecoder from Madrid # this means to ignore newline
 #baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
-url: "https://anomia.github.io" 
+url: "https://rubentr.github.io/anomia" 
 #"https://rubentr.github.io/intonarumori/" 
 #the base hostname "http://username.github.io/projectname"
-baseurl: "" 
+baseurl: "/anomia/" 
 #/intonarumori/ #the subpath of your site, "/projectname"
 
 twitter_username: rubentobalina
