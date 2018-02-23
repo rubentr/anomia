@@ -1,61 +1,70 @@
-# Welcome to Jekyll!
+# ----------------------------------------------------------------------------
+# Customize Options: Must Change
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+# Title:
+title: anomia, codificada
+
+# Where the page will be deployed.
+# If it's https://foo.com/bar, just write "https://foo.com"
+url: "https://rubent.github.io"
+
+# If you're deployging to a subdirectory (https://foo.com/bar/)
+# Then write "/bar/". Otherwise, remove this line.
+baseurl: "/anomia/"
+
+# Twitter IDs
+twitter:
+  username: "rubentobalina"
+author:
+  twitter: "rubentobalina"
+
+# Set default og:image
+# From Unsplash: https://unsplash.com/photos/1_CMoFsPfso
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: "static/images/og.jpg"
+
+# ----------------------------------------------------------------------------
+# Customize Options: Optional
 #
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# See: https://material.io/guidelines/style/color.html
+# Use color-name-value, like pink-200 or deep-purple-100
+brand_color: "deep-purple-400"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: anomia
-email: lagrimaescrita@gmail.com
-description: > I'm a newbie livecoder from Madrid # this means to ignore newlines until "baseurl:"
+# How article URLs are structured.
+# See: https://jekyllrb.com/docs/permalinks/
+permalink: posts/:title/
 
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-#url: "http://username.github.io"
-#baseurl: ""
+# "UA-NNNNNNNN-N"
+google_analytics: ""
 
-# If you are building a GitHub project page then use these settings:
-url: "https://rubentr.github.io/anomia" 
-#"https://rubentr.github.io/intonarumori/" 
-#the base hostname "http://username.github.io/projectname"
-baseurl: "/anomia/" 
-#/intonarumori/ #the subpath of your site, "/projectname"
+# Language. For example, if you write in Japanese, use "ja"
+lang: "en"
 
-twitter_username: rubentobalina
-github_username: rubentr
-website: chuletitaspinguino.wordpress.com
-Soundcloud_userID: user-516707540
-#Youtube_username: lagrimaescrita
+# How many posts are visible on the home page without clicking "View More"
+num_posts_visible_initially: 0
 
-# Important settings
-# assets:
-# sources:
-#   - assets/fonts
-#   - assets/img
-#   - assets/stylesheets
+# Date format: See http://strftime.net/
+date_format: "%b %-d, %Y"
+# ----------------------------------------------------------------------------
 
-# Build settings
-markdown: kramdown
-theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - mix-manifest.json
+  - webpack.mix.js
+  - yarn.lock
+  - package.json
+  - hot
+  - LICENSE.txt
+
 plugins:
-    - jekyll-feed
-#    - soundcloud_sound
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-readme-index
