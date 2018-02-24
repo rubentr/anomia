@@ -1,10 +1,10 @@
-![](https://rubentr.github.io/duo/static/images/og.jpg)
+![](https://rubentr.github.io/static/images/og.jpg)
 
-livecoder musician from Madrid, member of the [Live Code MAD](http://livecodemad.org/) group.
+Hi! I am a [livecoder](https://en.wikipedia.org/wiki/Live_coding) musician from Madrid, member of the [Live Code MAD](http://livecodemad.org/) group.
 
-## Live   
-**upcoming**  
-*Void*  
+### Live   
+**upcoming**     
+*Void*        
 **past**  
 - may 2017. Algorave, Café La Palma, Madrid.
 - april 2017. Algorave, Embajada de Italia, Madrid.
