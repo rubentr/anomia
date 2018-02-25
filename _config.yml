@@ -1,70 +1,15 @@
-# ----------------------------------------------------------------------------
-# Customize Options: Must Change
-#
-# Title:
+# Welcome to Jekyll!
+
+# Site settings
 title: anomia, codificada
+sitename: anomia
+email: lagrimaescrita@gmail.com
+description: >
 
-# Where the page will be deployed.
-# If it's https://foo.com/bar, just write "https://foo.com"
-url: "https://rubent.github.io"
+# the subpath of your site, e.g. /blog
+baseurl: "" 
+# the base hostname & protocol for your site
+url: "http://localhost:4000" 
 
-# If you're deployging to a subdirectory (https://foo.com/bar/)
-# Then write "/bar/". Otherwise, remove this line.
-baseurl: ""
-
-# Twitter IDs
-twitter:
-  username: "rubentobalina"
-author:
-  twitter: "rubentobalina"
-
-# Set default og:image
-# From Unsplash: https://unsplash.com/photos/1_CMoFsPfso
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      image: "static/images/og.jpg"
-
-# ----------------------------------------------------------------------------
-# Customize Options: Optional
-#
-# See: https://material.io/guidelines/style/color.html
-# Use color-name-value, like pink-200 or deep-purple-100
-brand_color: "deep-purple-400"
-
-# How article URLs are structured.
-# See: https://jekyllrb.com/docs/permalinks/
-permalink: posts/:title/
-
-# "UA-NNNNNNNN-N"
-google_analytics: ""
-
-# Language. For example, if you write in Japanese, use "ja"
-lang: "en"
-
-# How many posts are visible on the home page without clicking "View More"
-num_posts_visible_initially: 0
-
-# Date format: See http://strftime.net/
-date_format: "%b %-d, %Y"
-# ----------------------------------------------------------------------------
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - mix-manifest.json
-  - webpack.mix.js
-  - yarn.lock
-  - package.json
-  - hot
-  - LICENSE.txt
-
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jemoji
-  - jekyll-readme-index
+# Missing timezone in metadata date can lead to wrong date in url
+timezone: Europe/Madrid 
