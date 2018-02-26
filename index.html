@@ -3,18 +3,18 @@ layout: default
 title: anomia
 ---
 
-<div id="home">
+<div class="home">
 
 <p>Hi! I am a newbie livecoder musician from Madrid, member of the <a href="http://livecodemad.org/">Live Code MAD</a> group.</p>
 
 <h2>Live</h2>
  {% for post in site.categories.Live %}
- <li>>> <span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+ <li>>> <span class="date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
 <h2>Workshops</h2>
  {% for post in site.categories.Workshop %}
- <li>>> <span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+ <li>>> <span class="date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
 </div>
