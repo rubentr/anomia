@@ -37,12 +37,7 @@ ul ul,ol ol {
 margin:4px 0 4px 10px;
 }
 
-.posts { padding:0;}
-
 li { padding:0 4px; color:#ccc; list-style: none; }
-
-ul.posts li span { float:right; font-family:monofur, monaco, courier; color:#888; }
-ul.posts li a { font-weight:200;}
 
 h1 {
 color:#0383c9;
@@ -68,10 +63,11 @@ h1 a:hover { color:#fba919 ;}
 h2 {
 color:gray;
 font-size:1.5em;
-font-weight:100;
-letter-spacing:-1px;
-margin:0 0 10px;
-padding:10px 2px 4px 5px;
+font-weight: bold;
+letter-spacing:-0.5px;
+margin:0;
+padding-top:5px;
+padding-bottom:2px;
 }
 
 /*** Main wrap and header ***/
@@ -90,23 +86,36 @@ margin:0;
 
 /*** Main content ***/
 
-#content {
+.content {
 float:left;
 line-height:1.5em;
-margin-top:100px;
+margin-top:60px;
 margin-bottom:20px;
 padding:0;
 text-align:left;
 width:500px;
 }
 
-#home {
-margin-top:100px;
-margin-bottom:20px;
+.home {
+
 }
 
-#date {
+.bio {
+font-size:1.1em;
+font-weight:100;
+padding-left: 2px
+}
+
+.simbol{
+color:light-gray;
+font-size:1em;
+font-weight:80;
+margin-right: 3px;
+}
+
+.date {
 color:gray;
+margin-right: 50px;
 }
 
 /*** Footer ***/
@@ -129,4 +138,10 @@ padding:0;
 
 #footer a {
 color:#808080;
+}
+
+/*** Video ***/
+
+.video-youtube{
+margin-top: 30px;
 }
