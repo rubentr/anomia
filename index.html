@@ -3,22 +3,18 @@ layout: default
 title: anomia
 ---
 
-<div class="home">
-
-<div class="bio">Hi! I am a newbie livecoder musician from Madrid, member of the <a href="http://livecodemad.org/">Live Code MAD</a> group.</div>
+<div class="bio">Hi! I am a newbie livecoder musician from Madrid, member of the <a href="http://livecodemad.org/" target="_blank">Live Code MAD</a> group.</div>
 
 <p class="video-youtube">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/7keM0dQSSeQ" frameborder="0" allowfullscreen></iframe>
 </p>
 
-<h2 class="green">Live</h2>
+<h2 class="pink">Live</h2>
  {% for post in site.categories.Live %}
- <li><span class="simbol">>></span> <span class="date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+ <li><span class="simbol">>></span> <div class="date">{{ post.date | date_to_string }}</div> <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
-<h2 class="orange">Workshops</h2>
+<h2 class="pink">Workshops</h2>
  {% for post in site.categories.Workshop %}
- <li><span class="simbol">>></span> <span class="date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+ <li><span class="simbol">>></span> <div class="date">{{ post.date | date_to_string }}</div> <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
-
-</div>
