@@ -9,12 +9,12 @@ title: anomia
   <iframe width="560" height="315" src="https://www.youtube.com/embed?listType=playlist&list=PLQT1-_yQLwObGO4tvLvGFV8K4-XVEDuGt" frameborder="0" allowfullscreen></iframe>
 </p>
 
-<h2 class="pink">Live</h2>
+<p class="categoria">Live</p>
  {% for post in site.categories.Live %}
  <li><span class="simbol">>></span> <div class="date">{{ post.date | date_to_string }}</div> <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
-<h2 class="pink">Workshops</h2>
+<p class="categoria">Workshops</p>
  {% for post in site.categories.Workshop %}
  <li><span class="simbol">>></span> <div class="date">{{ post.date | date_to_string }}</div> <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}

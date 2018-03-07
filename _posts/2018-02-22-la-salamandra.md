@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Taller La Salamandra
+title: Taller en La Salamandra de Moratalaz
 category: Workshop
 ---
 

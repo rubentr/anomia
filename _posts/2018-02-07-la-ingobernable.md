@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Taller La Ingobernable
+title: Taller en La Ingobernable
 category: Workshop
 ---
 
